@@ -52,6 +52,7 @@ namespace GorillaTagGhostEntity
             AudioSource[] Sounds;
             Sounds = soundobj.GetComponents<AudioSource>();
             daisy = Sounds[0];
+            daisy.volume = 0.3f;
             join = Sounds[1];
             localasset.SetActive(false);
 
